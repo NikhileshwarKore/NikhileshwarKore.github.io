@@ -1,6 +1,11 @@
 .header {
   padding: 10px 16px;
-  background: #555;
+  background:saffron;
+  color: #f1f1f1;
+}
+.bio {
+  padding: 10px 16px;
+  background:saffron;
   color: #f1f1f1;
 }
 /* Three image containers (use 25% for four, and 50% for two, etc) */
