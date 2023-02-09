@@ -291,7 +291,7 @@ button[type="submit"]:hover {
 .icon-wrapper a {
   transition: 0.3s;
 }
-
+ 
 .icon-wrapper a:hover {
   color: var(--light-green);
 }
