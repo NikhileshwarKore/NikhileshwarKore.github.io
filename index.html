@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html>
+
 <style>
   body {
     margin: 0;
     padding: 0;
-    background: linear-gradient(to right, #f83600, #f9d423);
-    animation: animationName 5s ease infinite;
+    background: linear-gradient(to right, #f83600, #f9d423), 
+                url('./clouds.png') repeat-x;
+    animation: cloudAnimation 40s linear infinite;
+    background-size: 200% auto;
   }
 
-  @keyframes animationName {
+  @keyframes cloudAnimation {
     0% {
       background-position: 0% 50%;
     }
-    50% {
-      background-position: 100% 50%;
-    }
     100% {
-      background-position: 0% 50%;
+      background-position: 200% 50%;
     }
   }
 </style>
+
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
